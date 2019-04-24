@@ -75,13 +75,13 @@ time.sleep(2)
 driver.switch_to.window(driver.window_handles[1])
 login_fb = driver.find_element_by_xpath('//*[@id="email"]')
 login_fb.clear()
-login_fb.send_keys('zpelley@my.chemeketa.edu')
+login_fb.send_keys('example@email.com')
 
 time.sleep(1)
 
 pass_fb = driver.find_element_by_id('pass')
 pass_fb.clear()
-pass_fb.send_keys('mineshaft')
+pass_fb.send_keys('examplepassword')
 
 time.sleep(1)
 
