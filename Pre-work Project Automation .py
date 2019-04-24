@@ -17,7 +17,7 @@ from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.firefox.options import Options
 options = Options()
 options.set_preference("dom.webnotifications.enabled", False)
-driver = webdriver.Firefox(firefox_options=options, executable_path=r"C:\Users\zcp17\Downloads\geckodriver-v0.24.0-win64 (1)\geckodriver.exe")
+driver = webdriver.Firefox(firefox_options=options, executable_path=r"C:\geckodriver-v0.24.0-win64 (1)\geckodriver.exe")
 
 
 
